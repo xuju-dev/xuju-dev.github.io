@@ -1,0 +1,100 @@
+[
+  {
+    "label": {
+      "en": "Based in",
+      "de": "Wohnort"
+    },
+    "value": {
+      "en": "Munich",
+      "de": "München"
+    }
+  },
+  {
+    "label": {
+      "en": "Favorite things",
+      "de": "Lieblingsdinge"
+    },
+    "value": {
+      "en": "Good food and cake",
+      "de": "Gutes Essen und Kuchen"
+    }
+  },
+  {
+    "label": {
+      "en": "Diet",
+      "de": "Ernährung"
+    },
+    "value": {
+      "en": "Vegetarian",
+      "de": "Vegetarisch"
+    }
+  },
+  {
+    "label": {
+      "en": "Favorite food",
+      "de": "Lieblingsessen"
+    },
+    "value": {
+      "en": "Vegetarian mapo tofu",
+      "de": "Vegetarisches Mapo Tofu"
+    },
+    "icon": "illustrations/mapo-tofu.svg",
+    "link": "https://thewoksoflife.com/vegan-mapo-tofu/",
+    "linkLabel": {
+      "en": "Recipe",
+      "de": "Rezept"
+    }
+  },
+  {
+    "label": {
+      "en": "One of my favorite songs",
+      "de": "Einer meiner Lieblingssongs"
+    },
+    "value": {
+      "en": "Life Goes On by Capper",
+      "de": "Life Goes On von Capper"
+    },
+    "link": "https://open.spotify.com/track/2GY2sqbfoYznPFxsmWrpMb"
+  },
+  {
+    "label": {
+      "en": "Hobbies",
+      "de": "Hobbys"
+    },
+    "value": {
+      "en": "Strategy games: Teamfight Tactics\nPuzzle games\nMurder mystery games and TV shows\nWatching Formula 1",
+      "de": "Strategiespiele: Teamfight Tactics\nRätselspiele\nKrimispiele und Krimiserien\nFormel 1 schauen"
+    },
+    "bullets": true,
+    "icons": [
+      "illustrations/hobby-strategy.svg",
+      "illustrations/hobby-puzzle.svg",
+      "illustrations/hobby-mystery.svg",
+      "illustrations/hobby-racing.svg"
+    ],
+    "inlineLogo": {
+      "text": "Teamfight Tactics",
+      "src": "logos/tft.svg"
+    },
+    "inlineLogos": [
+      {
+        "text": "Formula 1",
+        "src": "logos/f1.svg"
+      },
+      {
+        "text": "Formel 1",
+        "src": "logos/f1.svg"
+      }
+    ]
+  },
+  {
+    "label": {
+      "en": "Currently reading",
+      "de": "Ich lese gerade"
+    },
+    "value": {
+      "en": "",
+      "de": ""
+    }
+  }
+]

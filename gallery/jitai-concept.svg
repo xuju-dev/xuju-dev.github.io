@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 800" width="1600" height="800">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#646a72"/></marker>
+    <marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#1f4f86"/></marker>
+  </defs>
+  <rect width="1600" height="800" fill="#ffffff"/>
+  <g font-family="'Source Sans 3', -apple-system, 'Segoe UI', Roboto, Arial, sans-serif">
+    <text x="100" y="118" font-size="46" font-weight="600" fill="#1b1e22">Just-in-time adaptive interventions</text>
+    <text x="100" y="168" font-size="28" fill="#646a72">Support that reaches people at the moment it can help, instead of on a fixed schedule</text>
+
+    <g font-size="24" fill="#646a72" text-anchor="middle">
+      <rect x="100" y="250" width="240" height="230" rx="14" fill="#f6f7f8" stroke="#d9dce0" stroke-width="2"/>
+      <circle cx="220" cy="300" r="22" fill="#1b1e22"/><text x="220" y="309" fill="#fff" font-size="22" font-weight="600">1</text>
+      <text x="220" y="372" font-size="30" font-weight="600" fill="#1b1e22">Context</text>
+      <text x="220" y="412">What is happening</text><text x="220" y="442">right now?</text>
+
+      <rect x="390" y="250" width="240" height="230" rx="14" fill="#f6f7f8" stroke="#d9dce0" stroke-width="2"/>
+      <circle cx="510" cy="300" r="22" fill="#1b1e22"/><text x="510" y="309" fill="#fff" font-size="22" font-weight="600">2</text>
+      <text x="510" y="372" font-size="30" font-weight="600" fill="#1b1e22">Decision point</text>
+      <text x="510" y="412">Is this a good</text><text x="510" y="442">moment?</text>
+
+      <rect x="680" y="250" width="240" height="230" rx="14" fill="#f6f7f8" stroke="#d9dce0" stroke-width="2"/>
+      <circle cx="800" cy="300" r="22" fill="#1b1e22"/><text x="800" y="309" fill="#fff" font-size="22" font-weight="600">3</text>
+      <text x="800" y="372" font-size="30" font-weight="600" fill="#1b1e22">Tailoring</text>
+      <text x="800" y="412">Which kind of</text><text x="800" y="442">support fits?</text>
+
+      <rect x="970" y="250" width="240" height="230" rx="14" fill="#eef3f9" stroke="#1f4f86" stroke-width="3"/>
+      <circle cx="1090" cy="300" r="22" fill="#1f4f86"/><text x="1090" y="309" fill="#fff" font-size="22" font-weight="600">4</text>
+      <text x="1090" y="372" font-size="30" font-weight="600" fill="#1b1e22">Intervention</text>
+      <text x="1090" y="412">delivered as an</text><text x="1090" y="442">LLM conversation</text>
+
+      <rect x="1260" y="250" width="240" height="230" rx="14" fill="#f6f7f8" stroke="#d9dce0" stroke-width="2"/>
+      <circle cx="1380" cy="300" r="22" fill="#1b1e22"/><text x="1380" y="309" fill="#fff" font-size="22" font-weight="600">5</text>
+      <text x="1380" y="372" font-size="30" font-weight="600" fill="#1b1e22">Outcome</text>
+      <text x="1380" y="412">Did it help in</text><text x="1380" y="442">the moment?</text>
+    </g>
+
+    <g stroke="#646a72" stroke-width="2.5" fill="none">
+      <line x1="342" y1="365" x2="386" y2="365" marker-end="url(#a)"/>
+      <line x1="632" y1="365" x2="676" y2="365" marker-end="url(#a)"/>
+      <line x1="922" y1="365" x2="966" y2="365" marker-end="url(#a)"/>
+      <line x1="1212" y1="365" x2="1256" y2="365" marker-end="url(#a)"/>
+    </g>
+    <path d="M1380 482 V590 H220 V486" fill="none" stroke="#1f4f86" stroke-width="2.5" stroke-dasharray="10 8" marker-end="url(#b)"/>
+    <text x="800" y="630" font-size="26" fill="#1f4f86" text-anchor="middle">learn and adapt for the next moment</text>
+
+    <text x="100" y="730" font-size="22" fill="#646a72">Concept based on Nahum-Shani et al. (2016). Generic illustration, not a product design.</text>
+  </g>
+</svg>

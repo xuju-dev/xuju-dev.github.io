@@ -1,0 +1,21 @@
+# Only these files are ever published. Everything else is ignored.
+*
+!.gitignore
+!index.html
+!style.css
+!main.js
+!photo.jpg
+!strip-photo-metadata.py
+!fonts/
+!fonts/*.woff2
+!fonts/OFL-*.txt
+!personal.json
+!logos/
+!logos/*.svg
+!logos/*.png
+!illustrations/
+!illustrations/*.svg
+!gallery/
+!gallery/*.jpg
+!gallery/*.png
+!gallery/*.svg
