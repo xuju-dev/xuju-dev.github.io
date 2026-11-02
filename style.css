@@ -322,3 +322,13 @@ html, body { overflow-x: hidden; }
 
 /* Phones: keep the background animation clearly behind the text */
 @media (max-width: 719px) { .traj { opacity: .3; } }
+
+/* At a glance: the facts a recruiter scans for, right under the intro */
+.glance { list-style: none; margin: 0 0 22px; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; max-width: 40em; }
+.glance li { font-size: 0.875rem; line-height: 1.3; padding: 5px 11px; border: 1px solid var(--rule); border-radius: 999px; background: var(--card); color: var(--ink); white-space: nowrap; }
+.glance li:first-child { border-color: var(--accent); color: var(--accent); font-weight: 600; }
+.links .cv-link { display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px; margin: -6px 0; border-radius: 6px; background: var(--accent); color: var(--paper); text-decoration: none; }
+.links .cv-link::before { content: ""; width: 10px; height: 12px; background: currentColor; clip-path: polygon(30% 0, 70% 0, 70% 45%, 100% 45%, 50% 100%, 0 45%, 30% 45%); }
+.links .cv-link:hover { filter: brightness(1.1); }
+@media (max-width: 480px) { .glance li { white-space: normal; } }
+@media print { .glance li { border-color: #999; } }

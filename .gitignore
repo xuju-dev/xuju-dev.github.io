@@ -19,3 +19,5 @@
 !gallery/*.jpg
 !gallery/*.png
 !gallery/*.svg
+!cv-public/
+!cv-public/*.pdf
