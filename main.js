@@ -102,6 +102,7 @@
   function resize() {
     var r = canvas.getBoundingClientRect(), dpr = Math.min(window.devicePixelRatio || 1, 2);
     if (!r.width) return;
+    if (Math.abs(r.width - W) < 1 && Math.abs(r.height - H) < 1) return; // size unchanged
     W = r.width; H = r.height;
     canvas.width = Math.round(W * dpr); canvas.height = Math.round(H * dpr);
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
@@ -116,7 +117,11 @@
   }
   function redrawSoon() { if (reduceMotion && W) draw(DRAW); }
   var resizeTimer;
-  window.addEventListener('resize', function () { clearTimeout(resizeTimer); resizeTimer = setTimeout(resize, 150); });
+  function resizeSoon() { clearTimeout(resizeTimer); resizeTimer = setTimeout(resize, 150); }
+  // Re-measure whenever the intro area changes size (photo, fonts or layout loading later),
+  // so the drawing is never stretched
+  if ('ResizeObserver' in window) new ResizeObserver(resizeSoon).observe(canvas);
+  window.addEventListener('resize', resizeSoon);
   resize();
   if (!reduceMotion) requestAnimationFrame(loop);
 

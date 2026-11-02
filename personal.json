@@ -21,16 +21,6 @@
   },
   {
     "label": {
-      "en": "Diet",
-      "de": "Ernährung"
-    },
-    "value": {
-      "en": "Vegetarian",
-      "de": "Vegetarisch"
-    }
-  },
-  {
-    "label": {
       "en": "Favorite food",
       "de": "Lieblingsessen"
     },
