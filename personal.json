@@ -52,13 +52,12 @@
       "de": "Hobbys"
     },
     "value": {
-      "en": "Strategy games: Teamfight Tactics\nPuzzle games\nMurder mystery games and TV shows\nWatching Formula 1",
-      "de": "Strategiespiele: Teamfight Tactics\nRätselspiele\nKrimispiele und Krimiserien\nFormel 1 schauen"
+      "en": "Strategy games: Teamfight Tactics\nMurder mystery games and TV shows\nWatching Formula 1",
+      "de": "Strategiespiele: Teamfight Tactics\nKrimispiele und Krimiserien\nFormel 1 schauen"
     },
     "bullets": true,
     "icons": [
       "illustrations/hobby-strategy.svg",
-      "illustrations/hobby-puzzle.svg",
       "illustrations/hobby-mystery.svg",
       "illustrations/hobby-racing.svg"
     ],

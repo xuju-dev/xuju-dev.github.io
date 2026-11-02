@@ -312,3 +312,13 @@ main h2[id], .personal h2[id] { scroll-margin-top: 28px; }
 /* Table of contents jumps to the top of a section; no flash on whole sections */
 main section, .personal-card { scroll-margin-top: 12px; }
 section:target, .personal-card:target { animation: none; }
+
+/* Mobile: keep every column at screen width; wide diagrams scroll inside their own box */
+.body, .entry, .content, .slider { grid-template-columns: minmax(0, 1fr); }
+.body > *, .entry > *, .collapse-body > * { min-width: 0; }
+.diagram { max-width: 100%; }
+html, body { overflow-x: hidden; }
+@supports (overflow: clip) { html, body { overflow-x: clip; } }
+
+/* Phones: keep the background animation clearly behind the text */
+@media (max-width: 719px) { .traj { opacity: .3; } }
